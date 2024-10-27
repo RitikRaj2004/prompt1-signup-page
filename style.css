@@ -1,0 +1,136 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ html,body{
+width: 100%;
+height: 100%;
+}
+body{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #f3dbea;
+    
+    /* background-image: url('https://plus.unsplash.com/premium_photo-1676834376020-a17554ed4fbb?q=80&w=1797&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Set the image URL */
+    background-size: cover; /* Make the image cover the entire element */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgcontainer{
+    height: 100%;
+    width: 60%;
+    /* background-image: url('https://images.unsplash.com/photo-1548504778-b14db6c34b04?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: 
+    #fddbdd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.containerwhite{
+    height: 80%;
+    width: 90%;
+    background-color: #fff;
+    display: flex;
+    position: relative;
+}
+.containerimg{
+    height: 75%;
+    width: 60%;
+    background-color: red;
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    background-image: url('https://img.freepik.com/free-photo/young-woman-kissing-smiling-man-with-paper-hearts-faces_23-2148012231.jpg?t=st=1730053265~exp=1730056865~hmac=f2e972ffba4293c81f2a65f256c972d87daf861d4f547878cda1be3de6d58d32&w=360');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.formcontainer{
+    height: 56%;
+    width: 25%;
+    background-color:#fafcff;
+    position: absolute;
+    right: 25%;
+    bottom: 24%;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 1%;
+    padding-left: 6%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+
+}
+#name{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    background-color:
+    #fafcff;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.form{
+    
+    padding-left: 22%;
+}
+button{
+    padding: 3px 25px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(245, 86, 112);
+    color: white;
+    font-weight: 600;
+    margin-left: 17%;
+}
+.or{
+    padding-left: 33%;
+    padding-top: 5%;
+
+}
+.items{
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    gap: 13px;
+    padding-right: 60%;
+}
+.google , .twitter , .link , .face{
+    color: rgb(23, 134, 225);
+    font-size: 25px;
+}
+.insta{
+    color:rgb(249, 100, 154);
+    font-size: 25px;
+}
+.content{
+    font-size: 25px;
+}
+.submit{
+    margin-top: 3%;
+    background-color:rgb(45, 109, 238);
+}
